@@ -8,3 +8,26 @@
 "F" for grades below 60.
 
 */
+import java.util.Scanner;
+public class Task04 {
+    public static void main(String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input a grade: ");
+        byte grade = sc.nextByte();
+        if (grade < 60) {
+            System.out.println("F");
+        }
+        else if (grade <= 69) {
+            System.out.println("D");
+        }
+        else if (grade <= 79) {
+            System.out.println("C");
+        }
+        else if (grade <= 89) {
+            System.out.println("B");
+        }
+        else {
+            System.out.println("A");
+        }
+    }
+}
