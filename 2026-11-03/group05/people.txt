@@ -1,1 +1,4 @@
 Members of the group and tasks assigned
+Task 01: Hugo
+Task 02: Héctor
+Task 03: Jose
