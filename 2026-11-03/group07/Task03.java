@@ -14,8 +14,7 @@ import java.util.Scanner;
 		 System.out.println("Year? ");
 		 year=scanner.nextInt();
 		      scanner.nextLine();
-		      if (year%4==0 &&year%100!=0)
-		      {
+		      if (year%4==0 &&year%100!=0) {
 				  System.out.println("It is a leap year");
 		      }
 		      else if (year%400==0)
