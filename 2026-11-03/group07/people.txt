@@ -1,1 +1,8 @@
-Members of the group and tasks assigned
+Members of the group and tasks assigned 
+
+GROUP 7
+
+-Hugo Moreno		- Task02
+-Gonzalo Martínez	- Task04
+-Luna Garcia		- Task03
+-Jorge Golf		    - Task01
