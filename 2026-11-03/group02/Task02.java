@@ -13,7 +13,7 @@ public class Task02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int currentHour;
-        System.out.print("What time is it? ");
+        System.out.print("What time is it???? ");
         currentHour = sc.nextInt();
 
         if (currentHour >= 5 && currentHour <= 11) {
