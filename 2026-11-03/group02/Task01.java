@@ -19,7 +19,6 @@ public class task01{
         } else{
             System.out.println("El número mayor es: "+number3);
         }
-        
 
     }
 
