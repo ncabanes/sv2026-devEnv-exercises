@@ -6,6 +6,8 @@
     "Night" if the hour is between 22 and 4. 
     Héctor Cabrera Martinez
  */
+//Modificado por Hugo
+
  import java.util.Scanner;
  public class Task02{
 	 public static void main (String[] args){
