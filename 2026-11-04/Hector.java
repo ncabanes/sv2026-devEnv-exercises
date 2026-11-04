@@ -2,15 +2,15 @@
 import java.util.Scanner;
 public class Hector{
 	public static void main (String [] args){
-		int rows, hight;
+		int rows, columns;
 			Scanner sc = new Scanner (System.in);
 			System.out.print("insert the number of rows ");
 				rows= sc.nextInt();
 			System.out.print("insert the number of hight ");
-				hight= sc.nextInt();
-				for (int column=0; column<hight; column++)
+				columns= sc.nextInt();
+				for (int row=0; row<rows; row++)
 				{
-					for(int i=0; i<rows; i++)
+					for(int column=0; column<columns; column++)
 					{
 						System.out.print("*");
 					}
