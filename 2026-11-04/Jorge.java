@@ -20,5 +20,6 @@ public class Jorge {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }
