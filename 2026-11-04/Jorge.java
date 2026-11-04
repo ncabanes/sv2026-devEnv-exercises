@@ -7,14 +7,14 @@ public class Jorge {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        int height, rows;
+        int columns, rows;
         System.out.print("Introduce la altura del rectángulo: ");
-        height = scanner.nextInt();
+        columns = scanner.nextInt();
         System.out.print("Introduce el número de filas: ");
         rows = scanner.nextInt();
-        for (int i = 0; i < rows; i++)
+        for (int row = 0; row < rows; row++)
         {
-            for (int j = 0; j < height; j++)
+            for (int column = 0; column < columns; column++)
             {
                 System.out.print("*");
             }
