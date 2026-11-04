@@ -12,9 +12,9 @@ public class CarlosS {
 		System.out.print("Enter a number of columns: ");
 		int columns = sc.nextInt();
 		
-		for (int i=1; i<=rows;i++)
+		for (int row=1; row<=rows;row++)
 		{
-			for (int j=1; j<=columns; j++)
+			for (int column=1; column<=columns; column++)
 			{
 				System.out.print("*");
 			}
