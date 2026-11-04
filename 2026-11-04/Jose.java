@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Jose{
 	public static void main(String[] args){
 		Scanner sc = new Scanner (System.in);
+		
 		int row,columns;
 		
 		System.out.print("rows:");
