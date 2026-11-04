@@ -31,7 +31,6 @@ public class Task02 {
         else {
             System.out.println("Incorrect hour, enter a number between 0 and 23.");
         }
-        sc.close();
     }
 }
 
