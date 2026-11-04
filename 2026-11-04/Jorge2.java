@@ -21,5 +21,6 @@ public class Jorge2 {
             System.out.println();
         }
         scanner.close();
+        
     }
 }
