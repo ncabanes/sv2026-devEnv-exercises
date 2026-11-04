@@ -1,3 +1,5 @@
+// Rectangle
+
 import java.util.Scanner;
 public class HugoP{
 	public static void main(String[] args){
@@ -9,12 +11,9 @@ public class HugoP{
 		System.out.print("Columns? ");
 		columns=sc.nextByte();
 		for(int r=1 ; r<=rows;r++){
-			
 			for(int c=1 ; c<=columns;c++){
-				
 				System.out.print("*");
 				}
-				
 			System.out.println();
 			
 			}
