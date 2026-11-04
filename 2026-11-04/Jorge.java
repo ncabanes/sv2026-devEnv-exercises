@@ -1,6 +1,8 @@
 //JORGE GOLF SANTACREU
 //Ejercicio Dibujar un rectangulo segun lo q pida el usuario
 
+import java.util.Scanner;
+
 public class Jorge {
     public static void main(String[] args)
     {
@@ -18,6 +20,5 @@ public class Jorge {
             }
             System.out.println();
         }
-        scanner.close();
     }
 }
