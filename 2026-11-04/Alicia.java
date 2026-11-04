@@ -1,3 +1,4 @@
+//Rectangle Alicia Linares
 import java.util.Scanner;
 
 public class Alicia {
@@ -9,15 +10,16 @@ public class Alicia {
         System.out.print("Tell me how many columns: ");
         columns = sc.nextInt();
 
-        for(int n=1; n<=columns;n++)
+        for(int n=1; n<=rows;n++)
         {
-			for (int i = 1; i <=rows; i++)
+			for (int i = 1; i <=columns; i++)
 			{
 				System.out.print("*");
 			}
-			System.out.println(" ");
+			System.out.println( );
 			
 		}
+		
     }
 }
 
