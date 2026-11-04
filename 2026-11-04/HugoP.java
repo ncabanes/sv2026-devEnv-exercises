@@ -7,9 +7,9 @@ public class HugoP{
 		int rows,columns;
 		
 		System.out.print("Rows? ");
-		rows=sc.nextByte();
+		rows=sc.nextInt();
 		System.out.print("Columns? ");
-		columns=sc.nextByte();
+		columns=sc.nextInt();
 		for(int r=1 ; r<=rows;r++){
 			for(int c=1 ; c<=columns;c++){
 				System.out.print("*");
