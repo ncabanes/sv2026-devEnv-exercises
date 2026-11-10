@@ -21,7 +21,12 @@ public class OperacionSegundoGrado
         {
             System.out.println("No hay soluciones reales.");
         } 
-        else 
+        else if (discriminant == 0) 
+        {
+            double x = -b / (2 * a);
+            System.out.println("La solución es: " + x);
+        } 
+        else
         {
             double sqrtDiscriminant = Math.sqrt(discriminant);
             double x1 = (-b + sqrtDiscriminant) / (2 * a);
