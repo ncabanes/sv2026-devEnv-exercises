@@ -8,6 +8,8 @@ public class HugoP{
 		Random rng = new Random();
 		byte randomNumber = (byte)rng.nextInt(101);
 		byte userNumber=-1;
+		byte trys=7;
+		System.out.println("At lest you tried, the number was " + randomNumber);
 		do{
 			System.out.print("Tell me a number: ");
 			userNumber=sc.nextByte();
@@ -17,9 +19,12 @@ public class HugoP{
 			else if(userNumber<randomNumber){
 				System.out.println("More than that");
 			}
+			trys--;
+			System.out.println("Remain tries:" + trys);
 			
-		}while(userNumber!=randomNumber);
-		System.out.println("CONGRATS!!");
+		}while(userNumber!=randomNumber && trys>0);
+		if(userNumber==randomNumber) System.out.println("CONGRATS!!");
+		else System.out.println("At lest you tried, the number was " + randomNumber);
 
 		
 	}
