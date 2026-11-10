@@ -1,12 +1,15 @@
 // Carlos Santos Durá
 
 import java.util.Scanner;
+import java.util.Random;
+
 public class CarlosS {
 	public static void main(String[] args) {
 		
+		Random generator = new Random();
 		Scanner sc = new Scanner(System.in);
 		int number=0;
-		int key=17;
+		int key=generator.nextInt(100)+1;
 		
 		do {
 			System.out.print("Guess a number 1-100: ");
