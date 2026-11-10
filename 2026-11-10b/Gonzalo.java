@@ -1,3 +1,5 @@
+// Guess number game | Gonzalo Martínez Díaz
+
 import java.util.Scanner;
 import java.util.Random;
 public class Gonzalo {
